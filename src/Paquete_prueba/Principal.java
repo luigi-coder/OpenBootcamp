@@ -4,12 +4,6 @@ public class Principal {
 
     public static void main(String[] args) {
 
-        int resultado = sumarTres(10,20,30);
-        System.out.println(resultado);
-
-        Coche miCoche = new Coche();
-        miCoche.incrementarPuertas(1);
-        System.out.println(miCoche.numeroPuertas);
 
         int contador = 10;
 
@@ -56,20 +50,6 @@ public class Principal {
 
         }
     }
-     public static int sumarTres(int a, int b, int c){
-
-        return a + b + c;
-
-     }
 }
 
-class Coche {
 
-    int numeroPuertas = 0;
-
-    public int incrementarPuertas(int puerta){
-
-        return this.numeroPuertas += puerta;
-    }
-
-}
